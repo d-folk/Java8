@@ -24,7 +24,7 @@ public class GenericClass<R, V> {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Generic Demo
 		GenericClass<String, Integer> obj = new GenericClass<String, Integer>("Deepak", 18);
 		System.out.println("Geeting string: "+obj.getObjectR() + " Role No: "+obj.getObjectV());
 		
